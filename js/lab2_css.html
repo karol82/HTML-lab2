@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tytuł</title>
+<style>
+  /*dla wszystkich paragrafow*/
+  p, body, defs {
+    font-style: normal;
+  }
+
+  #myid1 {
+    color: blue;
+  }
+  body {
+    background-color: lightgray;
+    background-image: url("img/susziani.gif");
+
+  }
+  .myclass1 {
+    font-size: 200%;
+  }
+
+  div * {
+    color: aquamarine;
+    font-size: 500%;
+  }
+
+  p.mypclass1 {
+    color: green;
+    font-size: 300%;
+  }
+/*paragraf*/
+    p#myid2 {
+      color: blue;
+      border-style: dashed;
+      border-width: medium;
+      border: "5px";
+
+    }
+
+</style>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+<p>Hello css</p>
+
+<p class="menu menu_element"</p>
+<p style="font-style: italic">Hello italic</p>
+<p id="myid1"> Hello css </p>
+<p id="myid2"> Hello css </p>
+<p class="myclass1 myclass2"> Hello css </p>
+
+
+<div>
+  <p>Test</p>
+</div>
+
+<p class="mypclass1">Hello css mypclass1</p>
+
+</body>
+</html>
